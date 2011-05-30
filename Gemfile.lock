@@ -3,7 +3,7 @@ dependencies:
   rails: 
     group: 
     - :default
-    version: ~> 2.3.5
+    version: ~> 2.3.8
   sqlite3-ruby: 
     group: 
     - :development
@@ -36,7 +36,7 @@ specs:
     version: 1.3.3
 - sqlite3-ruby: 
     version: 1.3.3
-hash: 71568855fcc2b275557e3a3bb7077e9d27f10866
+hash: 1975962a26a453742e345ddf3f58bd66b0ae9042
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
