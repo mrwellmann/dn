@@ -3,7 +3,7 @@ dependencies:
   rails: 
     group: 
     - :default
-    version: ~> 2.3.8
+    version: = 2.3.8
   sqlite3-ruby: 
     group: 
     - :development
@@ -19,24 +19,24 @@ specs:
 - rake: 
     version: 0.9.0
 - activesupport: 
-    version: 2.3.11
+    version: 2.3.8
 - rack: 
     version: 1.1.2
 - actionpack: 
-    version: 2.3.11
+    version: 2.3.8
 - actionmailer: 
-    version: 2.3.11
+    version: 2.3.8
 - activerecord: 
-    version: 2.3.11
+    version: 2.3.8
 - activeresource: 
-    version: 2.3.11
+    version: 2.3.8
 - rails: 
-    version: 2.3.11
+    version: 2.3.8
 - sqlite3: 
     version: 1.3.3
 - sqlite3-ruby: 
     version: 1.3.3
-hash: 1975962a26a453742e345ddf3f58bd66b0ae9042
+hash: 9b9429b322a78ae111022dc7631676d8164cce14
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
