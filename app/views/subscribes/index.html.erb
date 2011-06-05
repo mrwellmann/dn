@@ -1,0 +1,9 @@
+<% form_for(@subscribe) do |f| %>
+  <%= f.error_messages %>
+  <p>
+  <!--    <%= f.text_field :email, :value => "Email", :onfocus => 'this.value = ""' %> -->
+  	<%= f.text_field :email %>
+	<%= f.submit 'Email Eintragen' %>
+  </p>
+<% end %>
+
