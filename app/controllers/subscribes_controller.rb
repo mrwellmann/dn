@@ -16,13 +16,5 @@ class SubscribesController < ApplicationController
     @subscribe.save
     #render(root_path)
     redirect_to(root_path)
-   # respond_to do |format|
-   #   if @subscribe.save
-        #format.html { render :action => "index" }
-       # format.html { redirect_to(:action => "index")}
-   #   else
-        #format.html { render :action => "index" }
-   #   end
-   # end
   end
 end
