@@ -1,6 +1,5 @@
 class SubscribesController < ApplicationController
-  # GET /subscribes
-  # GET /subscribes.xml
+
   def index
     @subscribe = Subscribe.new
 
@@ -9,12 +8,10 @@ class SubscribesController < ApplicationController
     end
   end
 
-  # POST /subscribes
-  # POST /subscribes.xml
   def create
     @subscribe = Subscribe.new(params[:subscribe])
     @subscribe.save
-    #render(root_path)
-    redirect_to(root_path)
+    #render(nextsteps_path)
+    redirect_to(nextsteps_path)
   end
 end

@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :subscribes, :only => [:index, :create]
+  map.resources :subscribes
+  map.resources :nextsteps
   
   map.root :controller => :subscribes
 
