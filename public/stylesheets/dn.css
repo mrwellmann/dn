@@ -10,14 +10,14 @@ body {
   	font: 100% Arial, Helvetica, sans-serif;
   	text-align: left;
 	position:absolute;
-	min-width: 1040px;
+	min-width: 1010px;
  	min-height:900px;
 }
 
 #bg {
 	top: 0;
     left: 0;
-	min-width: 1040px;
+	min-width: 1010px;
  	min-height:900px;
     position:absolute;
 	margin:0 auto;
