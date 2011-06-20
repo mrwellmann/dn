@@ -5,19 +5,20 @@
 }
 
 body {
-background-image: url(../images/bg_klein.png);
-  font: 100% Arial, Helvetica, sans-serif;
-  text-align: left;
-  min-width: 660px;
-  min-height:580px; 
+	background-image: url(../images/bg_error.png);
+	background-repeat:no-repeat;
+  	font: 100% Arial, Helvetica, sans-serif;
+  	text-align: left;
+	position:absolute;
+	min-width: 1040px;
+ 	min-height:900px;
 }
 
 #bg {
-
 	top: 0;
     left: 0;
-	min-width: 660px;
- 	min-height:630px; 
+	min-width: 1040px;
+ 	min-height:900px;
     position:absolute;
 	margin:0 auto;
 	z-index:5;
